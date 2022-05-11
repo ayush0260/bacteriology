@@ -24,9 +24,9 @@
 
 	 
 	<!-- Annotation based controllers -->
-	<bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"/>
+	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"/>
 	
-	<context:component-scan base-package="org.openmrs.module.bacteriology" />
+<!--	<context:component-scan base-package="org.openmrs.module.bacteriology" />-->
     <context:component-scan base-package="org.openmrs.module.bacteriology.web"/>
  
 		
